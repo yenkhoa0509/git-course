@@ -1,0 +1,5 @@
+Câu lệnh để cài đặt name:
+git config --global user.name "yenkhoa0509"
+
+Câu lệnh để cài đặt email
+git config --global user.email "yenkhoa0509@gmail.com"
