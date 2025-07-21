@@ -1,0 +1,13 @@
+1. Giải thích các câu lệnh: 
+git init                                      #khởi tạo thư mục được quản lý bởi Git
+git add <file_name>                           #thêm 1 file vào vùng staging 
+git add .                                     #thêm toàn bộ
+git commit -m “message”.                      #commit với nội dung mô tả ngắn gọn thay đổi
+
+2. Hãy tưởng tượng có 1 folder lesson-2 mới được tạo. Hãy liệt kê các file theo từng vùng sau khi thao tác một loạt các lệnh sau:
+   a. Tạo 3 file: file1, file2, file3 #các file đều chưa được git theo dõi
+   b. Chạy lệnh: git init                     #git repo được khởi tạo
+   c. Chạy lệnh: git commit -m”init project”  #không có file nào được git add trước đó -> commit không có nội dung
+   d. Chạy lệnh: git add file1                #file1 được đưa vào staging 
+   e. Chạy lệnh: git commit -m”add file1”     #commit nội dung của file1 vào lịch sử git
+   f. Chạy lệnh: git commit -m”add file”      #không có file nào được git add trước đó -> commit không có nội dung
