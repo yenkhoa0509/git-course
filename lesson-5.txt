@@ -1,0 +1,26 @@
+1. Cấu trúc DOM cơ bản của một trang web bao gồm các thẻ gì?
+Cấu trúc DOM cơ bản bao gồm các thành phần HTML như:
+- <html>: Thẻ gốc bao bọc toàn bộ tài liệu HTML
+- <head>: Chứa thông tin metadata (tiêu đề, CSS, script,...)
+- <body>: Chứa nội dung chính hiển thị trên trình duyệt
+
+2. Hãy mô tả cấu trúc html của 1 bảng (table)
+
+<table>
+  <thead>
+    <tr>
+      <th>Tiêu đề cột 1</th>
+      <th>Tiêu đề cột 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dữ liệu 1</td>
+      <td>Dữ liệu 2</td>
+    </tr>
+    <tr>
+      <td>Dữ liệu 3</td>
+      <td>Dữ liệu 4</td>
+    </tr>
+  </tbody>
+</table>
